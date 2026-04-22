@@ -1,0 +1,75 @@
+############################
+# 🧱 Maven / Build
+############################
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+############################
+# ☕ Java
+############################
+*.class
+*.log
+*.jar
+*.war
+*.ear
+
+############################
+# 🧪 Test / Reports
+############################
+/reports/
+/test-output/
+
+############################
+# 🖥️ OS (Mac / Windows / Linux)
+############################
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+############################
+# 💻 IDEs
+############################
+
+### IntelliJ ###
+.idea/
+*.iml
+*.ipr
+*.iws
+
+### VS Code ###
+.vscode/
+
+### Eclipse / STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+############################
+# 🔐 Env / Secrets
+############################
+.env
+.env.*
+*.key
+*.pem
+
+############################
+# 📦 Logs
+############################
+logs/
+*.log
+
+############################
+# 🐳 Docker
+############################
+docker-compose.override.yml
+
+############################
+# 🔧 Misc
+############################
+HELP.md
